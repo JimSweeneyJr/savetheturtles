@@ -14,6 +14,12 @@
 		22ADDCFF2AFC750E00A79FFE /* savetheturtlesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDCFE2AFC750E00A79FFE /* savetheturtlesTests.swift */; };
 		22ADDD092AFC750E00A79FFE /* savetheturtlesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDD082AFC750E00A79FFE /* savetheturtlesUITests.swift */; };
 		22ADDD0B2AFC750E00A79FFE /* savetheturtlesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDD0A2AFC750E00A79FFE /* savetheturtlesUITestsLaunchTests.swift */; };
+		22ADDD1D2AFC7FD200A79FFE /* MeetAllTurtlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDD1C2AFC7FD200A79FFE /* MeetAllTurtlesView.swift */; };
+		22ADDD1F2AFC828A00A79FFE /* HelenCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDD1E2AFC828A00A79FFE /* HelenCard.swift */; };
+		22ADDD252AFC83DB00A79FFE /* GustavoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDD242AFC83DB00A79FFE /* GustavoCard.swift */; };
+		22ADDD272AFC83EB00A79FFE /* HaroldCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDD262AFC83EB00A79FFE /* HaroldCard.swift */; };
+		22ADDD2C2AFC96DD00A79FFE /* TurtleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDD2B2AFC96DD00A79FFE /* TurtleData.swift */; };
+		22ADDD2E2AFC96F000A79FFE /* TurtleDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDD2D2AFC96F000A79FFE /* TurtleDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		22ADDD042AFC750E00A79FFE /* savetheturtlesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = savetheturtlesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22ADDD082AFC750E00A79FFE /* savetheturtlesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = savetheturtlesUITests.swift; sourceTree = "<group>"; };
 		22ADDD0A2AFC750E00A79FFE /* savetheturtlesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = savetheturtlesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		22ADDD1C2AFC7FD200A79FFE /* MeetAllTurtlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetAllTurtlesView.swift; sourceTree = "<group>"; };
+		22ADDD1E2AFC828A00A79FFE /* HelenCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelenCard.swift; sourceTree = "<group>"; };
+		22ADDD242AFC83DB00A79FFE /* GustavoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GustavoCard.swift; sourceTree = "<group>"; };
+		22ADDD262AFC83EB00A79FFE /* HaroldCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaroldCard.swift; sourceTree = "<group>"; };
+		22ADDD2B2AFC96DD00A79FFE /* TurtleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurtleData.swift; sourceTree = "<group>"; };
+		22ADDD2D2AFC96F000A79FFE /* TurtleDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurtleDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +106,12 @@
 		22ADDCEC2AFC750D00A79FFE /* savetheturtles */ = {
 			isa = PBXGroup;
 			children = (
-				22ADDCED2AFC750D00A79FFE /* savetheturtlesApp.swift */,
-				22ADDCEF2AFC750D00A79FFE /* ContentView.swift */,
+				22ADDD2A2AFC96CB00A79FFE /* Model */,
+				22ADDD292AFC969B00A79FFE /* Data */,
+				22ADDD282AFC968400A79FFE /* App */,
+				22ADDD1B2AFC7F8A00A79FFE /* PickTrashView */,
+				22ADDD182AFC7EBE00A79FFE /* AllTurtleView */,
+				22ADDD192AFC7ED300A79FFE /* TurtleCards */,
 				22ADDCF12AFC750E00A79FFE /* Assets.xcassets */,
 				22ADDCF32AFC750E00A79FFE /* Preview Content */,
 			);
@@ -125,6 +141,56 @@
 				22ADDD0A2AFC750E00A79FFE /* savetheturtlesUITestsLaunchTests.swift */,
 			);
 			path = savetheturtlesUITests;
+			sourceTree = "<group>";
+		};
+		22ADDD182AFC7EBE00A79FFE /* AllTurtleView */ = {
+			isa = PBXGroup;
+			children = (
+				22ADDD1C2AFC7FD200A79FFE /* MeetAllTurtlesView.swift */,
+			);
+			path = AllTurtleView;
+			sourceTree = "<group>";
+		};
+		22ADDD192AFC7ED300A79FFE /* TurtleCards */ = {
+			isa = PBXGroup;
+			children = (
+				22ADDD1E2AFC828A00A79FFE /* HelenCard.swift */,
+				22ADDD242AFC83DB00A79FFE /* GustavoCard.swift */,
+				22ADDD262AFC83EB00A79FFE /* HaroldCard.swift */,
+			);
+			path = TurtleCards;
+			sourceTree = "<group>";
+		};
+		22ADDD1B2AFC7F8A00A79FFE /* PickTrashView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PickTrashView;
+			sourceTree = "<group>";
+		};
+		22ADDD282AFC968400A79FFE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				22ADDCEF2AFC750D00A79FFE /* ContentView.swift */,
+				22ADDCED2AFC750D00A79FFE /* savetheturtlesApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		22ADDD292AFC969B00A79FFE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				22ADDD2B2AFC96DD00A79FFE /* TurtleData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		22ADDD2A2AFC96CB00A79FFE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22ADDD2D2AFC96F000A79FFE /* TurtleDataModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +323,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22ADDD1F2AFC828A00A79FFE /* HelenCard.swift in Sources */,
+				22ADDD2C2AFC96DD00A79FFE /* TurtleData.swift in Sources */,
 				22ADDCF02AFC750D00A79FFE /* ContentView.swift in Sources */,
+				22ADDD2E2AFC96F000A79FFE /* TurtleDataModel.swift in Sources */,
+				22ADDD252AFC83DB00A79FFE /* GustavoCard.swift in Sources */,
+				22ADDD272AFC83EB00A79FFE /* HaroldCard.swift in Sources */,
+				22ADDD1D2AFC7FD200A79FFE /* MeetAllTurtlesView.swift in Sources */,
 				22ADDCEE2AFC750D00A79FFE /* savetheturtlesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
