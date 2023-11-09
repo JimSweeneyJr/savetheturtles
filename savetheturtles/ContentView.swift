@@ -20,11 +20,39 @@ struct ContentView: View {
                     
                     VStack {
                         
-                        Text("Save the Turtles")
+                        Text("Save the Turtles!")
+                        
+                        HStack {
+                            
+                            Button(action: {}) {
+                                Image("Helen")
+                                    .resizable()
+                                    .frame(width: 100, height: 100)
+                                    .clipShape(Circle())
+                                    .padding(-20)
+                                    
+                            }
+                            Button(action: {}) {
+                                Image("gustavo")
+                                    .resizable()
+                                    .frame(width: 100, height: 100)
+                                    .clipShape(Circle())
+                                    .padding(30)
+                                    
+                            }
+                            Button(action: {}) {
+                                Image("harold")
+                                    .resizable()
+                                    .frame(width: 100, height: 100)
+                                    .clipShape(Circle())
+                                    .padding(-20)
+                                    
+                            }
+                        }
                     
                             Button(action: {}) {
-                                Text("Meet the Turtles")
-                                .foregroundColor(.white)
+                                Text("Meet them All")
+                                    .foregroundColor(.white)
                             }
                         
                             Button(action: {}) {
