@@ -30,6 +30,7 @@
 		22ADDD2E2AFC96F000A79FFE /* TurtleDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDD2D2AFC96F000A79FFE /* TurtleDataModel.swift */; };
 		22ADDD322AFD93D400A79FFE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDD312AFD93D400A79FFE /* MainView.swift */; };
 		22ADDD342AFD975400A79FFE /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDD332AFD975400A79FFE /* OnboardingView.swift */; };
+		22C46EF92AFDE8490099A9F2 /* LifeBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C46EF82AFDE8490099A9F2 /* LifeBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		22ADDD2D2AFC96F000A79FFE /* TurtleDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurtleDataModel.swift; sourceTree = "<group>"; };
 		22ADDD312AFD93D400A79FFE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		22ADDD332AFD975400A79FFE /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		22C46EF82AFDE8490099A9F2 /* LifeBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +131,6 @@
 				22ADDD2A2AFC96CB00A79FFE /* Model */,
 				22ADDD292AFC969B00A79FFE /* Data */,
 				22ADDD282AFC968400A79FFE /* App */,
-				22ADDD1B2AFC7F8A00A79FFE /* PickTrashView */,
 				22ADDD182AFC7EBE00A79FFE /* AllTurtleView */,
 				22ADDD192AFC7ED300A79FFE /* TurtleCards */,
 				22ADDCF12AFC750E00A79FFE /* Assets.xcassets */,
@@ -177,15 +178,9 @@
 				22ADDD1E2AFC828A00A79FFE /* HelenCard.swift */,
 				22ADDD242AFC83DB00A79FFE /* GustavoCard.swift */,
 				22ADDD262AFC83EB00A79FFE /* HaroldCard.swift */,
+				22C46EF82AFDE8490099A9F2 /* LifeBarView.swift */,
 			);
 			path = TurtleCards;
-			sourceTree = "<group>";
-		};
-		22ADDD1B2AFC7F8A00A79FFE /* PickTrashView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = PickTrashView;
 			sourceTree = "<group>";
 		};
 		22ADDD282AFC968400A79FFE /* App */ = {
@@ -370,6 +365,7 @@
 				22ADDCF02AFC750D00A79FFE /* ContentView.swift in Sources */,
 				2265E2F92AFDA68A00C718DA /* OnBoardingDataModel.swift in Sources */,
 				22ADDD2E2AFC96F000A79FFE /* TurtleDataModel.swift in Sources */,
+				22C46EF92AFDE8490099A9F2 /* LifeBarView.swift in Sources */,
 				2265E2FD2AFDAE0300C718DA /* StartButtonView.swift in Sources */,
 				2265E2F12AFDA03F00C718DA /* AppView.swift in Sources */,
 				22ADDD252AFC83DB00A79FFE /* GustavoCard.swift in Sources */,
