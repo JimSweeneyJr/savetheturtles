@@ -17,7 +17,7 @@ struct AppView: View {
                     }
                 TurtlesView()
                     .tabItem {
-                        Image(systemName: "turtle")
+                        Image(systemName: "turtle1")
                         Text("Turtles")
                     }
                 TrashView()

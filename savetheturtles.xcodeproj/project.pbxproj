@@ -194,9 +194,9 @@
 				22ADDD352AFD98CD00A79FFE /* OnBoarding */,
 				22ADDCED2AFC750D00A79FFE /* savetheturtlesApp.swift */,
 				2265E2F02AFDA03F00C718DA /* AppView.swift */,
+				2265E2E82AFD9C3300C718DA /* TurtlesView.swift */,
 				22ADDCEF2AFC750D00A79FFE /* ContentView.swift */,
 				22ADDD312AFD93D400A79FFE /* MainView.swift */,
-				2265E2E82AFD9C3300C718DA /* TurtlesView.swift */,
 				2265E2EA2AFD9C4000C718DA /* TrashView.swift */,
 				2265E2EC2AFD9C4E00C718DA /* ProfileView.swift */,
 			);
