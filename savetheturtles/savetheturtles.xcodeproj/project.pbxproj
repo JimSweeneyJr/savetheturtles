@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2265E2E92AFD9C3300C718DA /* TurtlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265E2E82AFD9C3300C718DA /* TurtlesView.swift */; };
+		2265E2EB2AFD9C4000C718DA /* TrashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265E2EA2AFD9C4000C718DA /* TrashView.swift */; };
+		2265E2ED2AFD9C4E00C718DA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265E2EC2AFD9C4E00C718DA /* ProfileView.swift */; };
+		2265E2F12AFDA03F00C718DA /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265E2F02AFDA03F00C718DA /* AppView.swift */; };
+		2265E2F72AFDA66600C718DA /* OnBoardingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265E2F62AFDA66600C718DA /* OnBoardingData.swift */; };
+		2265E2F92AFDA68A00C718DA /* OnBoardingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265E2F82AFDA68A00C718DA /* OnBoardingDataModel.swift */; };
+		2265E2FB2AFDA6BE00C718DA /* OnBoardingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265E2FA2AFDA6BE00C718DA /* OnBoardingCard.swift */; };
+		2265E2FD2AFDAE0300C718DA /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265E2FC2AFDAE0300C718DA /* StartButtonView.swift */; };
+		22ADDCEE2AFC750D00A79FFE /* savetheturtlesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDCED2AFC750D00A79FFE /* savetheturtlesApp.swift */; };
+		22ADDCF02AFC750D00A79FFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDCEF2AFC750D00A79FFE /* ContentView.swift */; };
+		22ADDCF22AFC750E00A79FFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22ADDCF12AFC750E00A79FFE /* Assets.xcassets */; };
+		22ADDCF52AFC750E00A79FFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22ADDCF42AFC750E00A79FFE /* Preview Assets.xcassets */; };
+		22ADDCFF2AFC750E00A79FFE /* savetheturtlesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDCFE2AFC750E00A79FFE /* savetheturtlesTests.swift */; };
+		22ADDD092AFC750E00A79FFE /* savetheturtlesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDD082AFC750E00A79FFE /* savetheturtlesUITests.swift */; };
+		22ADDD0B2AFC750E00A79FFE /* savetheturtlesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDD0A2AFC750E00A79FFE /* savetheturtlesUITestsLaunchTests.swift */; };
+		22ADDD1D2AFC7FD200A79FFE /* MeetAllTurtlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDD1C2AFC7FD200A79FFE /* MeetAllTurtlesView.swift */; };
+		22ADDD1F2AFC828A00A79FFE /* HelenCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDD1E2AFC828A00A79FFE /* HelenCard.swift */; };
+		22ADDD252AFC83DB00A79FFE /* GustavoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDD242AFC83DB00A79FFE /* GustavoCard.swift */; };
+		22ADDD272AFC83EB00A79FFE /* HaroldCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDD262AFC83EB00A79FFE /* HaroldCard.swift */; };
+		22ADDD2C2AFC96DD00A79FFE /* TurtleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDD2B2AFC96DD00A79FFE /* TurtleData.swift */; };
+		22ADDD2E2AFC96F000A79FFE /* TurtleDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDD2D2AFC96F000A79FFE /* TurtleDataModel.swift */; };
+		22ADDD322AFD93D400A79FFE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDD312AFD93D400A79FFE /* MainView.swift */; };
+		22ADDD342AFD975400A79FFE /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDD332AFD975400A79FFE /* OnboardingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22ADDCFB2AFC750E00A79FFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22ADDCE22AFC750D00A79FFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22ADDCE92AFC750D00A79FFE;
+			remoteInfo = savetheturtles;
+		};
+		22ADDD052AFC750E00A79FFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22ADDCE22AFC750D00A79FFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22ADDCE92AFC750D00A79FFE;
+			remoteInfo = savetheturtles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2265E2E82AFD9C3300C718DA /* TurtlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurtlesView.swift; sourceTree = "<group>"; };
+		2265E2EA2AFD9C4000C718DA /* TrashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashView.swift; sourceTree = "<group>"; };
+		2265E2EC2AFD9C4E00C718DA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		2265E2F02AFDA03F00C718DA /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		2265E2F62AFDA66600C718DA /* OnBoardingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingData.swift; sourceTree = "<group>"; };
+		2265E2F82AFDA68A00C718DA /* OnBoardingDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingDataModel.swift; sourceTree = "<group>"; };
+		2265E2FA2AFDA6BE00C718DA /* OnBoardingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCard.swift; sourceTree = "<group>"; };
+		2265E2FC2AFDAE0300C718DA /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		22ADDCEA2AFC750D00A79FFE /* savetheturtles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = savetheturtles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22ADDCED2AFC750D00A79FFE /* savetheturtlesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = savetheturtlesApp.swift; sourceTree = "<group>"; };
+		22ADDCEF2AFC750D00A79FFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		22ADDCF12AFC750E00A79FFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22ADDCF42AFC750E00A79FFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22ADDCFA2AFC750E00A79FFE /* savetheturtlesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = savetheturtlesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22ADDCFE2AFC750E00A79FFE /* savetheturtlesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = savetheturtlesTests.swift; sourceTree = "<group>"; };
+		22ADDD042AFC750E00A79FFE /* savetheturtlesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = savetheturtlesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22ADDD082AFC750E00A79FFE /* savetheturtlesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = savetheturtlesUITests.swift; sourceTree = "<group>"; };
+		22ADDD0A2AFC750E00A79FFE /* savetheturtlesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = savetheturtlesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		22ADDD1C2AFC7FD200A79FFE /* MeetAllTurtlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetAllTurtlesView.swift; sourceTree = "<group>"; };
+		22ADDD1E2AFC828A00A79FFE /* HelenCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelenCard.swift; sourceTree = "<group>"; };
+		22ADDD242AFC83DB00A79FFE /* GustavoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GustavoCard.swift; sourceTree = "<group>"; };
+		22ADDD262AFC83EB00A79FFE /* HaroldCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaroldCard.swift; sourceTree = "<group>"; };
+		22ADDD2B2AFC96DD00A79FFE /* TurtleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurtleData.swift; sourceTree = "<group>"; };
+		22ADDD2D2AFC96F000A79FFE /* TurtleDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurtleDataModel.swift; sourceTree = "<group>"; };
+		22ADDD312AFD93D400A79FFE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		22ADDD332AFD975400A79FFE /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22ADDCE72AFC750D00A79FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22ADDCF72AFC750E00A79FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22ADDD012AFC750E00A79FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22ADDCE12AFC750D00A79FFE = {
+			isa = PBXGroup;
+			children = (
+				22ADDCEC2AFC750D00A79FFE /* savetheturtles */,
+				22ADDCFD2AFC750E00A79FFE /* savetheturtlesTests */,
+				22ADDD072AFC750E00A79FFE /* savetheturtlesUITests */,
+				22ADDCEB2AFC750D00A79FFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22ADDCEB2AFC750D00A79FFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22ADDCEA2AFC750D00A79FFE /* savetheturtles.app */,
+				22ADDCFA2AFC750E00A79FFE /* savetheturtlesTests.xctest */,
+				22ADDD042AFC750E00A79FFE /* savetheturtlesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22ADDCEC2AFC750D00A79FFE /* savetheturtles */ = {
+			isa = PBXGroup;
+			children = (
+				22ADDD2A2AFC96CB00A79FFE /* Model */,
+				22ADDD292AFC969B00A79FFE /* Data */,
+				22ADDD282AFC968400A79FFE /* App */,
+				22ADDD1B2AFC7F8A00A79FFE /* PickTrashView */,
+				22ADDD182AFC7EBE00A79FFE /* AllTurtleView */,
+				22ADDD192AFC7ED300A79FFE /* TurtleCards */,
+				22ADDCF12AFC750E00A79FFE /* Assets.xcassets */,
+				22ADDCF32AFC750E00A79FFE /* Preview Content */,
+			);
+			path = savetheturtles;
+			sourceTree = "<group>";
+		};
+		22ADDCF32AFC750E00A79FFE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				22ADDCF42AFC750E00A79FFE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22ADDCFD2AFC750E00A79FFE /* savetheturtlesTests */ = {
+			isa = PBXGroup;
+			children = (
+				22ADDCFE2AFC750E00A79FFE /* savetheturtlesTests.swift */,
+			);
+			path = savetheturtlesTests;
+			sourceTree = "<group>";
+		};
+		22ADDD072AFC750E00A79FFE /* savetheturtlesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22ADDD082AFC750E00A79FFE /* savetheturtlesUITests.swift */,
+				22ADDD0A2AFC750E00A79FFE /* savetheturtlesUITestsLaunchTests.swift */,
+			);
+			path = savetheturtlesUITests;
+			sourceTree = "<group>";
+		};
+		22ADDD182AFC7EBE00A79FFE /* AllTurtleView */ = {
+			isa = PBXGroup;
+			children = (
+				22ADDD1C2AFC7FD200A79FFE /* MeetAllTurtlesView.swift */,
+			);
+			path = AllTurtleView;
+			sourceTree = "<group>";
+		};
+		22ADDD192AFC7ED300A79FFE /* TurtleCards */ = {
+			isa = PBXGroup;
+			children = (
+				22ADDD1E2AFC828A00A79FFE /* HelenCard.swift */,
+				22ADDD242AFC83DB00A79FFE /* GustavoCard.swift */,
+				22ADDD262AFC83EB00A79FFE /* HaroldCard.swift */,
+			);
+			path = TurtleCards;
+			sourceTree = "<group>";
+		};
+		22ADDD1B2AFC7F8A00A79FFE /* PickTrashView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PickTrashView;
+			sourceTree = "<group>";
+		};
+		22ADDD282AFC968400A79FFE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				22ADDD352AFD98CD00A79FFE /* OnBoarding */,
+				22ADDCED2AFC750D00A79FFE /* savetheturtlesApp.swift */,
+				2265E2F02AFDA03F00C718DA /* AppView.swift */,
+				2265E2E82AFD9C3300C718DA /* TurtlesView.swift */,
+				22ADDCEF2AFC750D00A79FFE /* ContentView.swift */,
+				22ADDD312AFD93D400A79FFE /* MainView.swift */,
+				2265E2EA2AFD9C4000C718DA /* TrashView.swift */,
+				2265E2EC2AFD9C4E00C718DA /* ProfileView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		22ADDD292AFC969B00A79FFE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				22ADDD2B2AFC96DD00A79FFE /* TurtleData.swift */,
+				2265E2F62AFDA66600C718DA /* OnBoardingData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		22ADDD2A2AFC96CB00A79FFE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22ADDD2D2AFC96F000A79FFE /* TurtleDataModel.swift */,
+				2265E2F82AFDA68A00C718DA /* OnBoardingDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		22ADDD352AFD98CD00A79FFE /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				22ADDD332AFD975400A79FFE /* OnboardingView.swift */,
+				2265E2FA2AFDA6BE00C718DA /* OnBoardingCard.swift */,
+				2265E2FC2AFDAE0300C718DA /* StartButtonView.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22ADDCE92AFC750D00A79FFE /* savetheturtles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22ADDD0E2AFC750E00A79FFE /* Build configuration list for PBXNativeTarget "savetheturtles" */;
+			buildPhases = (
+				22ADDCE62AFC750D00A79FFE /* Sources */,
+				22ADDCE72AFC750D00A79FFE /* Frameworks */,
+				22ADDCE82AFC750D00A79FFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = savetheturtles;
+			productName = savetheturtles;
+			productReference = 22ADDCEA2AFC750D00A79FFE /* savetheturtles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22ADDCF92AFC750E00A79FFE /* savetheturtlesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22ADDD112AFC750E00A79FFE /* Build configuration list for PBXNativeTarget "savetheturtlesTests" */;
+			buildPhases = (
+				22ADDCF62AFC750E00A79FFE /* Sources */,
+				22ADDCF72AFC750E00A79FFE /* Frameworks */,
+				22ADDCF82AFC750E00A79FFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22ADDCFC2AFC750E00A79FFE /* PBXTargetDependency */,
+			);
+			name = savetheturtlesTests;
+			productName = savetheturtlesTests;
+			productReference = 22ADDCFA2AFC750E00A79FFE /* savetheturtlesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22ADDD032AFC750E00A79FFE /* savetheturtlesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22ADDD142AFC750E00A79FFE /* Build configuration list for PBXNativeTarget "savetheturtlesUITests" */;
+			buildPhases = (
+				22ADDD002AFC750E00A79FFE /* Sources */,
+				22ADDD012AFC750E00A79FFE /* Frameworks */,
+				22ADDD022AFC750E00A79FFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22ADDD062AFC750E00A79FFE /* PBXTargetDependency */,
+			);
+			name = savetheturtlesUITests;
+			productName = savetheturtlesUITests;
+			productReference = 22ADDD042AFC750E00A79FFE /* savetheturtlesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22ADDCE22AFC750D00A79FFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					22ADDCE92AFC750D00A79FFE = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					22ADDCF92AFC750E00A79FFE = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 22ADDCE92AFC750D00A79FFE;
+					};
+					22ADDD032AFC750E00A79FFE = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 22ADDCE92AFC750D00A79FFE;
+					};
+				};
+			};
+			buildConfigurationList = 22ADDCE52AFC750D00A79FFE /* Build configuration list for PBXProject "savetheturtles" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22ADDCE12AFC750D00A79FFE;
+			productRefGroup = 22ADDCEB2AFC750D00A79FFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22ADDCE92AFC750D00A79FFE /* savetheturtles */,
+				22ADDCF92AFC750E00A79FFE /* savetheturtlesTests */,
+				22ADDD032AFC750E00A79FFE /* savetheturtlesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22ADDCE82AFC750D00A79FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22ADDCF52AFC750E00A79FFE /* Preview Assets.xcassets in Resources */,
+				22ADDCF22AFC750E00A79FFE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22ADDCF82AFC750E00A79FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22ADDD022AFC750E00A79FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22ADDCE62AFC750D00A79FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22ADDD1F2AFC828A00A79FFE /* HelenCard.swift in Sources */,
+				2265E2ED2AFD9C4E00C718DA /* ProfileView.swift in Sources */,
+				22ADDD322AFD93D400A79FFE /* MainView.swift in Sources */,
+				22ADDD2C2AFC96DD00A79FFE /* TurtleData.swift in Sources */,
+				22ADDD342AFD975400A79FFE /* OnboardingView.swift in Sources */,
+				2265E2F72AFDA66600C718DA /* OnBoardingData.swift in Sources */,
+				22ADDCF02AFC750D00A79FFE /* ContentView.swift in Sources */,
+				2265E2F92AFDA68A00C718DA /* OnBoardingDataModel.swift in Sources */,
+				22ADDD2E2AFC96F000A79FFE /* TurtleDataModel.swift in Sources */,
+				2265E2FD2AFDAE0300C718DA /* StartButtonView.swift in Sources */,
+				2265E2F12AFDA03F00C718DA /* AppView.swift in Sources */,
+				22ADDD252AFC83DB00A79FFE /* GustavoCard.swift in Sources */,
+				2265E2EB2AFD9C4000C718DA /* TrashView.swift in Sources */,
+				2265E2FB2AFDA6BE00C718DA /* OnBoardingCard.swift in Sources */,
+				22ADDD272AFC83EB00A79FFE /* HaroldCard.swift in Sources */,
+				22ADDD1D2AFC7FD200A79FFE /* MeetAllTurtlesView.swift in Sources */,
+				2265E2E92AFD9C3300C718DA /* TurtlesView.swift in Sources */,
+				22ADDCEE2AFC750D00A79FFE /* savetheturtlesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22ADDCF62AFC750E00A79FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22ADDCFF2AFC750E00A79FFE /* savetheturtlesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22ADDD002AFC750E00A79FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22ADDD092AFC750E00A79FFE /* savetheturtlesUITests.swift in Sources */,
+				22ADDD0B2AFC750E00A79FFE /* savetheturtlesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22ADDCFC2AFC750E00A79FFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22ADDCE92AFC750D00A79FFE /* savetheturtles */;
+			targetProxy = 22ADDCFB2AFC750E00A79FFE /* PBXContainerItemProxy */;
+		};
+		22ADDD062AFC750E00A79FFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22ADDCE92AFC750D00A79FFE /* savetheturtles */;
+			targetProxy = 22ADDD052AFC750E00A79FFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22ADDD0C2AFC750E00A79FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22ADDD0D2AFC750E00A79FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22ADDD0F2AFC750E00A79FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"savetheturtles/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimsweeney.savetheturtles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22ADDD102AFC750E00A79FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"savetheturtles/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimsweeney.savetheturtles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22ADDD122AFC750E00A79FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimsweeney.savetheturtlesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/savetheturtles.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/savetheturtles";
+			};
+			name = Debug;
+		};
+		22ADDD132AFC750E00A79FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimsweeney.savetheturtlesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/savetheturtles.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/savetheturtles";
+			};
+			name = Release;
+		};
+		22ADDD152AFC750E00A79FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimsweeney.savetheturtlesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = savetheturtles;
+			};
+			name = Debug;
+		};
+		22ADDD162AFC750E00A79FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimsweeney.savetheturtlesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = savetheturtles;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22ADDCE52AFC750D00A79FFE /* Build configuration list for PBXProject "savetheturtles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22ADDD0C2AFC750E00A79FFE /* Debug */,
+				22ADDD0D2AFC750E00A79FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22ADDD0E2AFC750E00A79FFE /* Build configuration list for PBXNativeTarget "savetheturtles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22ADDD0F2AFC750E00A79FFE /* Debug */,
+				22ADDD102AFC750E00A79FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22ADDD112AFC750E00A79FFE /* Build configuration list for PBXNativeTarget "savetheturtlesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22ADDD122AFC750E00A79FFE /* Debug */,
+				22ADDD132AFC750E00A79FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22ADDD142AFC750E00A79FFE /* Build configuration list for PBXNativeTarget "savetheturtlesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22ADDD152AFC750E00A79FFE /* Debug */,
+				22ADDD162AFC750E00A79FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22ADDCE22AFC750D00A79FFE /* Project object */;
+}
