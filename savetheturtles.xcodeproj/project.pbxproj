@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2265E2E92AFD9C3300C718DA /* TurtlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265E2E82AFD9C3300C718DA /* TurtlesView.swift */; };
+		2265E2EB2AFD9C4000C718DA /* TrashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265E2EA2AFD9C4000C718DA /* TrashView.swift */; };
+		2265E2ED2AFD9C4E00C718DA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265E2EC2AFD9C4E00C718DA /* ProfileView.swift */; };
+		2265E2F12AFDA03F00C718DA /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265E2F02AFDA03F00C718DA /* AppView.swift */; };
+		2265E2F72AFDA66600C718DA /* OnBoardingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265E2F62AFDA66600C718DA /* OnBoardingData.swift */; };
+		2265E2F92AFDA68A00C718DA /* OnBoardingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265E2F82AFDA68A00C718DA /* OnBoardingDataModel.swift */; };
+		2265E2FB2AFDA6BE00C718DA /* OnBoardingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265E2FA2AFDA6BE00C718DA /* OnBoardingCard.swift */; };
+		2265E2FD2AFDAE0300C718DA /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2265E2FC2AFDAE0300C718DA /* StartButtonView.swift */; };
 		22ADDCEE2AFC750D00A79FFE /* savetheturtlesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDCED2AFC750D00A79FFE /* savetheturtlesApp.swift */; };
 		22ADDCF02AFC750D00A79FFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDCEF2AFC750D00A79FFE /* ContentView.swift */; };
 		22ADDCF22AFC750E00A79FFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22ADDCF12AFC750E00A79FFE /* Assets.xcassets */; };
@@ -20,6 +28,8 @@
 		22ADDD272AFC83EB00A79FFE /* HaroldCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDD262AFC83EB00A79FFE /* HaroldCard.swift */; };
 		22ADDD2C2AFC96DD00A79FFE /* TurtleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDD2B2AFC96DD00A79FFE /* TurtleData.swift */; };
 		22ADDD2E2AFC96F000A79FFE /* TurtleDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDD2D2AFC96F000A79FFE /* TurtleDataModel.swift */; };
+		22ADDD322AFD93D400A79FFE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDD312AFD93D400A79FFE /* MainView.swift */; };
+		22ADDD342AFD975400A79FFE /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADDD332AFD975400A79FFE /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +50,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2265E2E82AFD9C3300C718DA /* TurtlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurtlesView.swift; sourceTree = "<group>"; };
+		2265E2EA2AFD9C4000C718DA /* TrashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashView.swift; sourceTree = "<group>"; };
+		2265E2EC2AFD9C4E00C718DA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		2265E2F02AFDA03F00C718DA /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		2265E2F62AFDA66600C718DA /* OnBoardingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingData.swift; sourceTree = "<group>"; };
+		2265E2F82AFDA68A00C718DA /* OnBoardingDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingDataModel.swift; sourceTree = "<group>"; };
+		2265E2FA2AFDA6BE00C718DA /* OnBoardingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCard.swift; sourceTree = "<group>"; };
+		2265E2FC2AFDAE0300C718DA /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		22ADDCEA2AFC750D00A79FFE /* savetheturtles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = savetheturtles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22ADDCED2AFC750D00A79FFE /* savetheturtlesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = savetheturtlesApp.swift; sourceTree = "<group>"; };
 		22ADDCEF2AFC750D00A79FFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +74,8 @@
 		22ADDD262AFC83EB00A79FFE /* HaroldCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaroldCard.swift; sourceTree = "<group>"; };
 		22ADDD2B2AFC96DD00A79FFE /* TurtleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurtleData.swift; sourceTree = "<group>"; };
 		22ADDD2D2AFC96F000A79FFE /* TurtleDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurtleDataModel.swift; sourceTree = "<group>"; };
+		22ADDD312AFD93D400A79FFE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		22ADDD332AFD975400A79FFE /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,8 +191,14 @@
 		22ADDD282AFC968400A79FFE /* App */ = {
 			isa = PBXGroup;
 			children = (
-				22ADDCEF2AFC750D00A79FFE /* ContentView.swift */,
+				22ADDD352AFD98CD00A79FFE /* OnBoarding */,
 				22ADDCED2AFC750D00A79FFE /* savetheturtlesApp.swift */,
+				2265E2F02AFDA03F00C718DA /* AppView.swift */,
+				22ADDCEF2AFC750D00A79FFE /* ContentView.swift */,
+				22ADDD312AFD93D400A79FFE /* MainView.swift */,
+				2265E2E82AFD9C3300C718DA /* TurtlesView.swift */,
+				2265E2EA2AFD9C4000C718DA /* TrashView.swift */,
+				2265E2EC2AFD9C4E00C718DA /* ProfileView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -181,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				22ADDD2B2AFC96DD00A79FFE /* TurtleData.swift */,
+				2265E2F62AFDA66600C718DA /* OnBoardingData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -189,8 +216,19 @@
 			isa = PBXGroup;
 			children = (
 				22ADDD2D2AFC96F000A79FFE /* TurtleDataModel.swift */,
+				2265E2F82AFDA68A00C718DA /* OnBoardingDataModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		22ADDD352AFD98CD00A79FFE /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				22ADDD332AFD975400A79FFE /* OnboardingView.swift */,
+				2265E2FA2AFDA6BE00C718DA /* OnBoardingCard.swift */,
+				2265E2FC2AFDAE0300C718DA /* StartButtonView.swift */,
+			);
+			path = OnBoarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,12 +362,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				22ADDD1F2AFC828A00A79FFE /* HelenCard.swift in Sources */,
+				2265E2ED2AFD9C4E00C718DA /* ProfileView.swift in Sources */,
+				22ADDD322AFD93D400A79FFE /* MainView.swift in Sources */,
 				22ADDD2C2AFC96DD00A79FFE /* TurtleData.swift in Sources */,
+				22ADDD342AFD975400A79FFE /* OnboardingView.swift in Sources */,
+				2265E2F72AFDA66600C718DA /* OnBoardingData.swift in Sources */,
 				22ADDCF02AFC750D00A79FFE /* ContentView.swift in Sources */,
+				2265E2F92AFDA68A00C718DA /* OnBoardingDataModel.swift in Sources */,
 				22ADDD2E2AFC96F000A79FFE /* TurtleDataModel.swift in Sources */,
+				2265E2FD2AFDAE0300C718DA /* StartButtonView.swift in Sources */,
+				2265E2F12AFDA03F00C718DA /* AppView.swift in Sources */,
 				22ADDD252AFC83DB00A79FFE /* GustavoCard.swift in Sources */,
+				2265E2EB2AFD9C4000C718DA /* TrashView.swift in Sources */,
+				2265E2FB2AFDA6BE00C718DA /* OnBoardingCard.swift in Sources */,
 				22ADDD272AFC83EB00A79FFE /* HaroldCard.swift in Sources */,
 				22ADDD1D2AFC7FD200A79FFE /* MeetAllTurtlesView.swift in Sources */,
+				2265E2E92AFD9C3300C718DA /* TurtlesView.swift in Sources */,
 				22ADDCEE2AFC750D00A79FFE /* savetheturtlesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +534,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"savetheturtles/Preview Content\"";
@@ -514,6 +563,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"savetheturtles/Preview Content\"";
