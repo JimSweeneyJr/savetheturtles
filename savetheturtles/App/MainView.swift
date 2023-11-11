@@ -25,7 +25,7 @@ struct MainView: View {
                         HStack {
                             
                             NavigationLink {
-                                HelenCard()
+                                HelenCard(turtle: turtleData[0])
                             } label: {
                                 Image("Helen")
                                     .resizable()

@@ -16,35 +16,35 @@ let turtleData: [Turtle] = [
         image: "Helen",
         location: "Boston",
         age: 42,
-        health: 23
+        health: 23.0
     ),
     Turtle(
         name: "Gustavo",
         image: "gustavo",
         location: "Boston",
         age: 86,
-        health: 23
+        health: 23.0
     ),
     Turtle(
         name: "Harold",
         image: "harold",
         location: "Boston",
         age: 18,
-        health: 23
+        health: 23.0
     ),
     Turtle(
         name: "Charlie",
         image: "Charlie",
         location: "Boston",
         age: 27,
-        health: 23
+        health: 23.0
     ),
     Turtle(
         name: "Elaine",
         image: "Elaine",
         location: "Boston",
         age: 19,
-        health: 23
+        health: 23.0
     ),
     Turtle(
         name: "Dorothy",

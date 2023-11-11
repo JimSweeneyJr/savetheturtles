@@ -20,7 +20,7 @@ struct AppView: View {
                         Image(systemName: "turtle1")
                         Text("Turtles")
                     }
-                TrashView()
+                AtlanticOceanView()
                     .tabItem {
                         Image(systemName: "trash")
                         Text("Pick Trash")

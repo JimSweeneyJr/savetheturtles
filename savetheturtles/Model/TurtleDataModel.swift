@@ -15,5 +15,5 @@ struct Turtle: Identifiable {
     var image: String
     var location: String
     var age: Int
-    var health: Int
+    var health: Float
 }
